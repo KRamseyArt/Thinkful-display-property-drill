@@ -1,0 +1,46 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Your styles go here! */
+.frame {
+  height: 500px;
+  width: 800px;
+  margin: 20px auto;
+  background: gray;
+}
+
+.upper {
+  height: 200px;
+  width: 50%;
+  display: inline-block;
+  border: 1px solid black;
+}
+.upper-one {
+  background: olive;
+}
+.upper-two {
+  background: blue;
+}
+
+.lower {
+  height: 300px;
+  width: 33.33%;
+  display: inline-block;
+  border: 1px solid black;
+}
+.lower-one {
+  background: gray;
+}
+.lower-two {
+  background: black;
+}
+.lower-three {
+  background: goldenrod;
+}
